@@ -35,4 +35,5 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 npm run dev
 ```
-### Feel Free To Ask Of There Anything Error :)
+### Feel Free To Ask if There Anything Error :)
+* My IG : @in.f_mys
