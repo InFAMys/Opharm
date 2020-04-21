@@ -1,0 +1,38 @@
+{
+  "name": "opharm",
+  "version": "1.0.0",
+  "description": "Will Be The Biggest School Project I Ever Created",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InFAMys/Opharm.git"
+  },
+  "author": "FMP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InFAMys/Opharm/issues"
+  },
+  "homepage": "https://github.com/InFAMys/Opharm#readme"
+}
