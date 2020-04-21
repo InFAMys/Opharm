@@ -29,7 +29,6 @@ These instructions will get you a copy of the project up and running on your loc
 * redux-thunk
 
 ### Install And Running
-#### Simple
 * Clone This Repository
 * Run The Application With
 ```
