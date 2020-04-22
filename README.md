@@ -28,11 +28,22 @@ These instructions will get you a copy of the project up and running on your loc
 * redux 
 * redux-thunk
 
+### Database
+* MongoDB
+
 ### Install And Running
 * Clone This Repository
 * Run The Application With
 ```
 npm run dev
+```
+If Error Try Install This In Client Folder
+```
+npm i axios classnames jwt-decode react-redux react-router-dom redux redux-thunk
+```
+Or
+```
+npm i react-scripts
 ```
 ### Feel Free To Ask if There Anything Error :)
 * My IG : @in.f_mys
