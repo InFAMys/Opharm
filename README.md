@@ -1,5 +1,5 @@
 # Opharm
-An Online Drugstore Created By Me And My Team (Experimental!)
+An Online Drugstore Project Created By Me And My Team (Experimental!)
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on your loc
 * redux 
 * redux-thunk
 
-### Database
+#### Database
 * MongoDB
 
 ### Install And Running
