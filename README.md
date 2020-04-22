@@ -1,5 +1,5 @@
 # Opharm
-An Online Drugstore Created By Me And My Team (Experimental!)
+An Online Drugstore Project Created By Me And My Team (Experimental!)
 
 ## Getting Started
 
