@@ -46,16 +46,16 @@ return (
       <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="btn-flat waves-effect">
+            <Link to="/" className="btn-flat waves-effect white-text">
               <i className="material-icons left">keyboard_backspace</i> Back to
               home
             </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-              <h4>
+              <h4 className="white-text">
                 <b>Login</b> below
               </h4>
-              <p className="grey-text text-darken-1">
-                Don't have an account? <Link to="/register">Register</Link>
+              <p className="grey-text text-lighten-1">
+                Don't have an account? <Link to="/register" className="white-text">Register</Link>
               </p>
             </div>
             <form noValidate onSubmit={this.onSubmit}>
@@ -66,11 +66,11 @@ return (
                   error={errors.email}
                   id="email"
                   type="email"
-                  className={classnames("", {
+                  className={classnames("white-text", {
                     invalid: errors.email || errors.emailnotfound
                   })}
                 />
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" >Email</label>
                 <span className="red-text">
                   {errors.email}
                   {errors.emailnotfound}
@@ -83,7 +83,7 @@ return (
                   error={errors.password}
                   id="password"
                   type="password"
-                  className={classnames("", {
+                  className={classnames("white-text", {
                     invalid: errors.password || errors.passwordincorrect
                   })}
                 />
@@ -102,7 +102,7 @@ return (
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                  className="btn btn-large waves-effect waves-light hoverable white black-text"
                 >
                   Login
                 </button>
