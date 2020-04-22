@@ -8,7 +8,7 @@ class Landing extends Component {
           <div className="col s12 center-align white-text">
             <h4><b>OPHARM</b> </h4>
             <h4>
-              An Online Drugstore{" "}
+              An Online Drugstore Project{" "}
               <span style={{ fontFamily: "monospace" }}></span> Created by Me And My Team
             </h4>
             <p className="flow-text grey-text text-lighten-1">
