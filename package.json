@@ -4,6 +4,7 @@
   "description": "Will Be The Biggest School Project I Ever Created",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.21.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
