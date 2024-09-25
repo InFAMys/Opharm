@@ -45,5 +45,3 @@ Or
 ```
 npm i react-scripts
 ```
-### Feel Free To Ask if There Anything Error :)
-* My IG : @in.f_mys
